@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Crontab\Job | API</title>
+
+            <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/sami.css">
+        <script src="../js/jquery-1.11.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/typeahead.min.js"></script>
+        <script src="../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:Crontab_Job" data-root-path="../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <form id="search-form" action="../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../classes.html">Classes</a></li>
+                                            <li><a href="../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../interfaces.html">Interfaces</a></li>
+                    <li><a href="../traits.html">Traits</a></li>
+                    <li><a href="../doc-index.html">Index</a></li>
+                    <li><a href="../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                                                            <li><a href="../Crontab.html">Crontab</a></li>
+    
+                <li>Job</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>
+            Job
+                
+        </h1>
+    </div>
+
+    <p>    class
+    <strong>Job</strong>        extends <a href="../Crontab/BaseJob.html"><abbr title="Crontab\BaseJob">BaseJob</abbr></a>
+</p>
+
+        
+    
+
+            <div class="description">
+            <p>Represent a cron job</p>                    </div>
+    
+    
+    
+            <h2>Properties</h2>
+
+            <table class="table table-condensed">
+                    <tr>
+                <td class="type" id="property__regex">
+                    static                                                            
+                </td>
+                <td>$_regex</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../Crontab/BaseJob.html#property__regex"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></td>
+            </tr>
+            </table>
+
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getMinute">getMinute</a>()
+        
+                                            <p>Return the minute</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getMinute"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getHour">getHour</a>()
+        
+                                            <p>Return the hour</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getHour"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDayOfMonth">getDayOfMonth</a>()
+        
+                                            <p>Return the day of month</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getDayOfMonth"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getMonth">getMonth</a>()
+        
+                                            <p>Return the month</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getMonth"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDayOfWeek">getDayOfWeek</a>()
+        
+                                            <p>Return the day of week</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getDayOfWeek"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCommand">getCommand</a>()
+        
+                                            <p>Return the command</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getCommand"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getStatus">getStatus</a>()
+        
+                                            <p>Return the status</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getStatus"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getComments">getComments</a>()
+        
+                                            <p>Return the comments</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getComments"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getErrorFile">getErrorFile</a>()
+        
+                                            <p>Return error file</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getErrorFile"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getErrorSize">getErrorSize</a>()
+        
+                                            <p>Return the error file size</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getErrorSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLogFile">getLogFile</a>()
+        
+                                            <p>Return log file</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getLogFile"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLogSize">getLogSize</a>()
+        
+                                            <p>Return the log file size</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_getLogSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setStatus">setStatus</a>(string $status)
+        
+                                            <p>Set the status</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_setStatus"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setLogSize">setLogSize</a>(string $logSize)
+        
+                                            <p>Set the log file size</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_setLogSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setErrorSize">setErrorSize</a>(string $errorSize)
+        
+                                            <p>Set the error file size</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../Crontab/BaseJob.html#method_setErrorSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___toString">__toString</a>()
+        
+                                            <p>To string</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    static&nbsp;<a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_parse">parse</a>($jobLine)
+        
+                                            <p>Parse crontab line into Job object</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getEntries">getEntries</a>()
+        
+                                            <p>Get an array of job entries</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_render">render</a>()
+        
+                                            <p>Render the job for crontab</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_prepareComments">prepareComments</a>()
+        
+                                            <p>Prepare comments</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_prepareLog">prepareLog</a>()
+        
+                                            <p>Prepare log</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_prepareError">prepareError</a>()
+        
+                                            <p>Prepare log</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getErrorContent">getErrorContent</a>()
+        
+                                            <p>Return the error file content</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLogContent">getLogContent</a>()
+        
+                                            <p>Return the log file content</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Crontab\DateTime">DateTime</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLastRunTime">getLastRunTime</a>()
+        
+                                            <p>Return the last job run time</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getHash">getHash</a>()
+        
+                                            <p>Return the job unique hash</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setMinute">setMinute</a>(string $minute)
+        
+                                            <p>Set the minute (* 1 1-10,11-20,30-59 1-59 *\/1)</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setHour">setHour</a>(string $hour)
+        
+                                            <p>Set the hour</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setDayOfMonth">setDayOfMonth</a>(string $dayOfMonth)
+        
+                                            <p>Set the day of month</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setMonth">setMonth</a>(string $month)
+        
+                                            <p>Set the month</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setDayOfWeek">setDayOfWeek</a>(string $dayOfWeek)
+        
+                                            <p>Set the day of week</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setCommand">setCommand</a>(string $command)
+        
+                                            <p>Set the command</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setLastRunTime">setLastRunTime</a>(int $lastRunTime)
+        
+                                            <p>Set the last job run time</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setComments">setComments</a>(string $comments)
+        
+                                            <p>Set the comments</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setLogFile">setLogFile</a>(string $logFile)
+        
+                                            <p>Set the log file</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setErrorFile">setErrorFile</a>(string $errorFile)
+        
+                                            <p>Set the error file</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_getMinute">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getMinute"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 97</div>
+        <code>                    string
+    <strong>getMinute</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the minute</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getHour">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getHour"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 107</div>
+        <code>                    string
+    <strong>getHour</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the hour</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDayOfMonth">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getDayOfMonth"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 117</div>
+        <code>                    string
+    <strong>getDayOfMonth</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the day of month</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getMonth">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getMonth"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 127</div>
+        <code>                    string
+    <strong>getMonth</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the month</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDayOfWeek">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getDayOfWeek"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 137</div>
+        <code>                    string
+    <strong>getDayOfWeek</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the day of week</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCommand">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getCommand"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 147</div>
+        <code>                    string
+    <strong>getCommand</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the command</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getStatus">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getStatus"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 157</div>
+        <code>                    string
+    <strong>getStatus</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the status</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getComments">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getComments"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 167</div>
+        <code>                    string
+    <strong>getComments</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the comments</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getErrorFile">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getErrorFile"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 177</div>
+        <code>                    string
+    <strong>getErrorFile</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return error file</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getErrorSize">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getErrorSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 187</div>
+        <code>                    string
+    <strong>getErrorSize</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the error file size</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLogFile">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getLogFile"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 197</div>
+        <code>                    string
+    <strong>getLogFile</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return log file</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLogSize">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_getLogSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 207</div>
+        <code>                    string
+    <strong>getLogSize</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the log file size</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setStatus">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_setStatus"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 219</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setStatus</strong>(string $status)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the status</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$status</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setLogSize">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_setLogSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 233</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setLogSize</strong>(string $logSize)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the log file size</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$logSize</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setErrorSize">
+        <div class="location">in <a href="../Crontab/BaseJob.html#method_setErrorSize"><abbr title="Crontab\BaseJob">BaseJob</abbr></a> at line         line 247</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setErrorSize</strong>(string $errorSize)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the error file size</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$errorSize</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___toString">
+        <div class="location">at line         line 19</div>
+        <code>                    string
+    <strong>__toString</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>To string</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_parse">
+        <div class="location">at line         line 36</div>
+        <code>        static            <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>parse</strong>($jobLine)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Parse crontab line into Job object</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$jobLine</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+                            <h4>Exceptions</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a target="_blank" href="http://php.net/InvalidArgumentException">InvalidArgumentException</a></td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getEntries">
+        <div class="location">at line         line 136</div>
+        <code>                    array
+    <strong>getEntries</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get an array of job entries</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_render">
+        <div class="location">at line         line 156</div>
+        <code>                    string
+    <strong>render</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Render the job for crontab</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_prepareComments">
+        <div class="location">at line         line 173</div>
+        <code>                    string
+    <strong>prepareComments</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Prepare comments</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td>or null</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_prepareLog">
+        <div class="location">at line         line 187</div>
+        <code>                    string
+    <strong>prepareLog</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Prepare log</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td>or null</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_prepareError">
+        <div class="location">at line         line 201</div>
+        <code>                    string
+    <strong>prepareError</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Prepare log</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td>or null</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getErrorContent">
+        <div class="location">at line         line 216</div>
+        <code>                    string
+    <strong>getErrorContent</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the error file content</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLogContent">
+        <div class="location">at line         line 230</div>
+        <code>                    string
+    <strong>getLogContent</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the log file content</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLastRunTime">
+        <div class="location">at line         line 244</div>
+        <code>                    <abbr title="Crontab\DateTime">DateTime</abbr>|null
+    <strong>getLastRunTime</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the last job run time</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Crontab\DateTime">DateTime</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getHash">
+        <div class="location">at line         line 254</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>getHash</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Return the job unique hash</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setMinute">
+        <div class="location">at line         line 270</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setMinute</strong>(string $minute)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the minute (* 1 1-10,11-20,30-59 1-59 *\/1)</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$minute</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setHour">
+        <div class="location">at line         line 288</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setHour</strong>(string $hour)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the hour</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$hour</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setDayOfMonth">
+        <div class="location">at line         line 306</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setDayOfMonth</strong>(string $dayOfMonth)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the day of month</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$dayOfMonth</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setMonth">
+        <div class="location">at line         line 324</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setMonth</strong>(string $month)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the month</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$month</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setDayOfWeek">
+        <div class="location">at line         line 342</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setDayOfWeek</strong>(string $dayOfWeek)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the day of week</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$dayOfWeek</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setCommand">
+        <div class="location">at line         line 360</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setCommand</strong>(string $command)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the command</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$command</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setLastRunTime">
+        <div class="location">at line         line 378</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setLastRunTime</strong>(int $lastRunTime)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the last job run time</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>int</td>
+                <td>$lastRunTime</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setComments">
+        <div class="location">at line         line 392</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setComments</strong>(string $comments)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the comments</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$comments</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setLogFile">
+        <div class="location">at line         line 410</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setLogFile</strong>(string $logFile)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the log file</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$logFile</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setErrorFile">
+        <div class="location">at line         line 424</div>
+        <code>                    <a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a>
+    <strong>setErrorFile</strong>(string $errorFile)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the error file</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$errorFile</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../Crontab/Job.html"><abbr title="Crontab\Job">Job</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>
