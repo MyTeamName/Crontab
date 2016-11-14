@@ -1,5 +1,8 @@
 <?php
 
+// generate documentation with Sami
+// https://github.com/FriendsOfPHP/Sami
+
 // run in command prompt:
 // php sami.phar update sami.config.php
 
